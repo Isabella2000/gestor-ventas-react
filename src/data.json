@@ -1,0 +1,54 @@
+{
+    "empresaGestoraVentas": {
+        "nombre": " Mi Empresa Gestora de Ventas",
+        "direccion": " 456 Avenida Principal, Ciudad",
+        "telefono": " +9876543210",
+        "logo": " url_del_logo.png"
+    },
+    "empresasClientes": [
+        {
+            "nombreEmpresa": "Empresa X",
+            "direccion": "123 Calle de Ventas, Ciudad",
+            "telefono": "+1234567890",
+            "contacto": {
+                "nombre": "Elena García",
+                "email": "elena@example.com",
+                "telefono": "+1234567890"
+            },
+            "productosVendidos": [
+                {
+                        "nombreProducto": "Producto A",
+                        "precioUnitario": 50,
+                        "cantidadVendida": 100
+                },
+                {
+                    "nombreProducto": "Producto B",
+                    "precioUnitario": 30,
+                    "cantidadVendida": 200
+                }
+            ]
+        },
+        {
+            "nombreEmpresa": "Empresa Y",
+            "direccion": "789 Calle de Ventas, Ciudad",
+            "telefono": "+987654321",
+            "contacto": {
+                "nombre": "Luis Martínez",
+                "email": "luis@example.com",
+                "telefono": "+9876543210"
+            },
+            "productosVendidos": [
+                {
+                    "nombreProducto": "Producto C",
+                    "precioUnitario": 25,
+                    "cantidadVendida": 150
+                },
+                {
+                    "nombreProducto": "Producto D",
+                    "precioUnitario": 40,
+                    "cantidadVendida": 120
+                }
+            ]
+        }
+    ]
+}
