@@ -9,7 +9,7 @@ const CardEmpresaGestora = ({ e }) => {
         <div>
             <div className='m-4 font-serif text-lg '>
                 {/* <h1>empresaGestoraVentas</h1> */}
-                <p>{ ("⚠️")+e }</p>
+                <p>⚠️{ e }</p>
             </div>
         </div>
     )
